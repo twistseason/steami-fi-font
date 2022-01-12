@@ -132,7 +132,8 @@ export default function CardTable({ color }) {
                       : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
-                  Delivered Territorles and Stores
+                  Delivered Territorles
+                  <br /> and Stores
                 </th>
                 <th
                   className={
@@ -159,7 +160,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <img
                     src="/img/FeedCarrotIcon.jpg"
-                    className="h-8 w-8 bg-white rounded-full border my-auto"
+                    className="h-8 w-8 bg-white rounded-full border mx-auto"
                     alt="..."
                   ></img>
                 </td>
@@ -241,7 +242,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <img
                     src="/img/CarrotBest.jpg"
-                    className="h-8 w-8 bg-white rounded-full border m-auto"
+                    className="h-8 w-8 bg-white rounded-full border mx-auto"
                     alt="..."
                   ></img>
                 </td>
@@ -323,7 +324,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 ">
                   <img
                     src="/img/CarrotBest.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                    className="h-8 w-8 bg-white rounded-full border mx-auto"
                     alt="..."
                   ></img>
                 </td>
@@ -405,7 +406,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <img
                     src="/img/CarrotBest.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                    className="h-8 w-8 bg-white rounded-full border mx-auto"
                     alt="..."
                   ></img>
                 </td>
@@ -490,7 +491,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <img
                     src="/img/react.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                    className="h-8 w-8 bg-white rounded-full border "
                     alt="..."
                   ></img>
                 </td>
@@ -498,7 +499,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <img
                     src="/img/CarrotBest.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                    className="h-8 w-8 bg-white rounded-full border mx-auto"
                     alt="..."
                   ></img>
                 </td>
@@ -523,17 +524,6 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  {/* <div className="flex items-center">
-                    <span className="mr-2">By วัยรุ่น OC</span>
-                    <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
-                        <div
-                          style={{ width: "60%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
-                        ></div>
-                      </div>
-                    </div>
-                  </div> */}
                   By วัยรุ่น OC
                 </td>
                 {/* TimeZone */}
