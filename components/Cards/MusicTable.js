@@ -144,6 +144,7 @@ export default function CardTable({ color }) {
                 ></th>
               </tr>
             </thead>
+            {/* List 1 */}
             <tbody>
               <tr>
                 {/* Type */}
@@ -158,7 +159,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <img
                     src="/img/FeedCarrotIcon.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                    className="h-8 w-8 bg-white rounded-full border my-auto"
                     alt="..."
                   ></img>
                 </td>
@@ -240,7 +241,7 @@ export default function CardTable({ color }) {
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
                   <img
                     src="/img/CarrotBest.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                    className="h-8 w-8 bg-white rounded-full border m-auto"
                     alt="..."
                   ></img>
                 </td>
@@ -289,9 +290,9 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                  <img
-                    src="/img/vue.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                <img
+                    src="/img/worldiconreen.png"
+                    className="h-9 w-9 bg-white"
                     alt="..."
                   ></img>
                   <span
@@ -301,7 +302,7 @@ export default function CardTable({ color }) {
                     }
                   >
                     240 Terrs.
-                    <br /> 23 Stroes.
+                    <br /> 42 Stroes.
                   </span>
 
                 </td>
@@ -464,9 +465,9 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                  <img
-                    src="/img/vue.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                <img
+                    src="/img/worldiconreen.png"
+                    className="h-9 w-9 bg-white"
                     alt="..."
                   ></img>
                   <span
@@ -476,7 +477,7 @@ export default function CardTable({ color }) {
                     }
                   >
                     240 Terrs.
-                    <br /> 0 Stroes.
+                    <br /> 7 Stroes.
                   </span>
 
                 </td>
@@ -557,9 +558,9 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                  <img
-                    src="/img/vue.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                <img
+                    src="/img/worldiconreen.png"
+                    className="h-9 w-9 bg-white"
                     alt="..."
                   ></img>
                   <span
@@ -569,7 +570,7 @@ export default function CardTable({ color }) {
                     }
                   >
                     240 Terrs.
-                    <br /> 23 Stroes.
+                    <br /> 10 Stroes.
                   </span>
 
                 </td>
