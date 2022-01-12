@@ -183,17 +183,6 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  {/* <div className="flex items-center">
-                    <span className="mr-2">By วัยรุ่น OC</span>
-                    <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
-                        <div
-                          style={{ width: "60%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
-                        ></div>
-                      </div>
-                    </div>
-                  </div> */}
                   By วัยรุ่น OC
                 </td>
                 {/* TimeZone */}
@@ -218,9 +207,9 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
-                  <img
-                    src="/img/vue.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                <img
+                    src="/img/worldiconreen.png"
+                    className="h-9 w-9 bg-white"
                     alt="..."
                   ></img>
                   <span
@@ -230,9 +219,9 @@ export default function CardTable({ color }) {
                     }
                   >
                     240 Terrs.
-                    <br /> 23 Stroes.
+                    <br /> 0 Stroes.
                   </span>
-                   
+
                 </td>
               </tr>
             </tbody>
@@ -276,17 +265,6 @@ export default function CardTable({ color }) {
                 </td>
                 {/* Lable */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
-                  {/* <div className="flex items-center">
-                    <span className="mr-2">By วัยรุ่น OC</span>
-                    <div className="relative w-full">
-                      <div className="overflow-hidden h-2 text-xs flex rounded bg-red-200">
-                        <div
-                          style={{ width: "60%" }}
-                          className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-red-500"
-                        ></div>
-                      </div>
-                    </div>
-                  </div> */}
                   By วัยรุ่น OC
                 </td>
                 {/* TimeZone */}
@@ -325,7 +303,7 @@ export default function CardTable({ color }) {
                     240 Terrs.
                     <br /> 23 Stroes.
                   </span>
-                   
+
                 </td>
               </tr>
             </tbody>
@@ -341,7 +319,7 @@ export default function CardTable({ color }) {
                   ></img>
                 </td>
                 {/* Status */}
-                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4">
+                <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 ">
                   <img
                     src="/img/CarrotBest.jpg"
                     className="h-8 w-8 bg-white rounded-full border"
@@ -394,8 +372,8 @@ export default function CardTable({ color }) {
                 {/* Delivered */}
                 <td className="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left flex items-center">
                   <img
-                    src="/img/vue.jpg"
-                    className="h-8 w-8 bg-white rounded-full border"
+                    src="/img/worldiconreen.png"
+                    className="h-9 w-9 bg-white"
                     alt="..."
                   ></img>
                   <span
@@ -407,7 +385,7 @@ export default function CardTable({ color }) {
                     240 Terrs.
                     <br /> 23 Stroes.
                   </span>
-                   
+
                 </td>
               </tr>
             </tbody>
@@ -500,7 +478,7 @@ export default function CardTable({ color }) {
                     240 Terrs.
                     <br /> 0 Stroes.
                   </span>
-                   
+
                 </td>
               </tr>
             </tbody>
@@ -593,7 +571,7 @@ export default function CardTable({ color }) {
                     240 Terrs.
                     <br /> 23 Stroes.
                   </span>
-                   
+
                 </td>
               </tr>
             </tbody>
